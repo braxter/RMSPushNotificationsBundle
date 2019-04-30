@@ -13,8 +13,8 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0",
-        "kriswallsmith/buzz": "*",
+        "php": "^7.1",
+        "kriswallsmith/buzz": "<=0.16.1",
         "psr/log": "^1.0"
     },
     "require-dev": {
