@@ -109,8 +109,7 @@ class AndroidMessage implements MessageInterface
      */
     public function getData()
     {
-        $key = $this->isFCM() ? 'body' : 'message';
-        return array_merge(array($key => $this->getMessage()), $this->data);
+        return array_merge(array('message' => $this->getMessage()), $this->data);
     }
 
     /**
